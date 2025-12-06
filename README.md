@@ -45,13 +45,17 @@ O bootcamp tem foco em:
 
 - Fundamentos da linguagem Java
 
-- Lógica de programação
+- Programação Orientada a Objetos (POO)
 
-- Paradigmas e boas práticas
+- Criação de APIs REST com Java e Spring Boot
 
 - Ferramentas para desenvolvimento moderno
 
-- Preparação para o mercado e para processos seletivos
+- Uso de IAs no Desenvolvimento com Java
+
+- Docker e Containerização com Java
+
+- AWS e Nuvem
 
 - Parceiro: Accenture Brasil
 
