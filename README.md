@@ -92,16 +92,10 @@ cd bootcamp-java-dio-accenture
 - Para desafios simples:
 
 ```
-cd src
-javac Main.java
+cd src/main/java/dev/idinaldo/bootcamps/dio/accenture/java/
+javac <nome-do-arquivo>.java
 ```
 
-- Para desafios complexos:
-
-```
-mvn clean install
-mvn spring-boot:run
-```
 
 
 ## 📄 Licença
