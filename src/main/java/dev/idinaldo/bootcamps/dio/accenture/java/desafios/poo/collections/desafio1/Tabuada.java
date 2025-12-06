@@ -11,14 +11,24 @@ public class Tabuada {
         List<String> numbersStr = List.of(scanner.nextLine().split(","));
 
         tabuadaAdicao(numbersStr);
+        tabuadaSubtracao(numbersStr);
 
     }
 
-    private static void tabuadaAdicao(List<String> numbers) {
+    public static void tabuadaAdicao(List<String> numbers) {
         for (String number : numbers) {
             int temp = Integer.valueOf(number);
             for (int i = 1; i <= 10; i++) {
                 System.out.printf("%d + %d = %d\n", temp, i, temp + i);
+            }
+        }
+    }
+
+    public static void tabuadaSubtracao(List<String> numbers) {
+        for (String number : numbers) {
+            int temp = Integer.valueOf(number);
+            for (int i = 1; i <= 10; i++) {
+                System.out.printf("%d - %d = %d\n", temp, i, temp - i);
             }
         }
     }
